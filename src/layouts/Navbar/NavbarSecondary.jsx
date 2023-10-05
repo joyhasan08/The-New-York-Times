@@ -7,7 +7,7 @@ const NavbarSecondary = () => {
         <div className="flex">
             <div className="w-36"></div>
             <ul className="flex  flex-1 justify-center  gap-5">
-                <li><Link>Home</Link></li>
+                <li><Link to={'/'}>Home</Link></li>
                 <li><Link>About</Link></li>
                 <li><Link>Career</Link></li>
             </ul>

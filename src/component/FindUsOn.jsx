@@ -12,7 +12,7 @@ const FindUsOn = () => {
                 <p className="flex items-center gap-2  border-b-2 py-4 px-2 text-lg font-semibold " ><span><BsTwitter></BsTwitter></span>Twitter</p>
             </a>
             <a href="">
-                <p className="flex items-center gap-2  border-b-2 py-4 px-2 text-lg font-semibold " ><span><BsInstagram></BsInstagram></span>Instagram</p>
+                <p className="flex items-center gap-2  py-4 px-2 text-lg font-semibold " ><span><BsInstagram></BsInstagram></span>Instagram</p>
             </a>
         </div>
     );
