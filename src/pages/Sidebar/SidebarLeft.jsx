@@ -12,14 +12,10 @@ const SidebarLeft = () => {
 
     return (
         <div>
-            <h1>
-                Left bar .....
-                coming soooon......
-                {ctg.length}
-            </h1>
-            <div className='text-lg font-semibold'>
+            <h1 className='text-2xl font-bold pb-2'>All Categores</h1>
+            <div className='text-lg font-semibold px-4 '>
                 {
-                    ctg.map((value) => <Link key={value.id}><li  >{value.name}</li></Link>)
+                    ctg.map((value) => <Link key={value.id}><li className='hover:bg-slate-300 rounded-md px-2 '  >{value.name}</li></Link>)
                 }
             </div>
         </div>

@@ -9,7 +9,7 @@ const NewsFeed = () => {
         fetch(`news.json`).then(res => res.json()).then(data => setNews(data))
     }, [])
     return (
-        <div>
+        <div className="">
 
             {
                 news.map((value) => <NewsCard key={value.category_id} value={value} ></NewsCard>)
