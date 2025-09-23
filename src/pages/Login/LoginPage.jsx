@@ -10,9 +10,9 @@ const LoginPage = () => {
                 <h2 className=" text-gray-900  text-4xl font-semibold py-6 text-center">Login your account</h2>
                 <form className="flex flex-col space-y-4 text-xl font-semibold" >
                     <p>Email address</p>
-                    <input className="input bg-gray-200 text-white" type="email" placeholder="enter your email here" />
+                    <input className="input bg-gray-200 text-black" type="email" placeholder="enter your email here" />
                     <p>Password</p>
-                    <input className="input bg-gray-200 " type="password" placeholder="enter your password here" />
+                    <input className="input bg-gray-200 text-black " type="password" placeholder="enter your password here" />
                     <button className="btn bg-gray-900 text-white " >Login</button>
                 </form>
                 <Link to={"/reg"} className="text-lg py-2 text-slate-700" ><p>Dont’t Have An Account ? Register</p></Link>
